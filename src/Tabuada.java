@@ -1,6 +1,7 @@
 public class Tabuada {
 
    private  Integer resultado;
+   Menu menu = new Menu ();
 
    public void limitetabuada (Integer num) throws Exception {
       if (num >100){
@@ -12,6 +13,7 @@ public class Tabuada {
       for (int x = 1; x < 11; x++){
          resultado = num * x;
          System.out.println(num + "x" + x + "=" + resultado);
+         //menu.painel();
 
       }
 
